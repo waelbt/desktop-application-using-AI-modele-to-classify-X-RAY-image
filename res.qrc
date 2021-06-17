@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="image">
+    <file>59399.png</file>
+    <file>img/cil-home.png</file>
+    <file>img/cil-save.png</file>
+    <file>img/istockphoto-1206774789-612x612.jpg</file>
+    <file>img/newtest.png</file>
+    <file>img/newtest2.png</file>
+    <file>img/save1.png</file>
+    <file>img/save2.png</file>
+    <file>img/Untitled-1.png</file>
+    <file>img/Untitled-2.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>loginpage</class>
+ <widget class="QWidget" name="loginpage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>739</width>
+    <height>536</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton#loginbtn{
+background-color:qlineargradient(spread:pad,x1:0,y1:0.505682,x2:1,y2:0.447,stop:0 rgba(20,47,78,219),stop:1 rgba(85,98,112,226));
+color:rgba(255,255,255,210);
+border-radius:5px;
+}
+QPushButton#loginbtn:hover{
+background-color:qlineargradient(spread:pad,x1:0,y1:0.505682,x2:1,y2:0.447,stop:0 rgba(40,76,98,216),stop:1 rgba(105,118,132,266));
+}
+QPushButton#loginbtn:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(105,118,132,200);
+}
+</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>-1</y>
+     <width>741</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>741</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/image/img/istockphoto-1206774789-612x612.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>40</y>
+      <width>351</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 108), stop:1 rgba(255, 255, 255, 255));
+border-radius:20px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>90</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgba(255, 255, 255,210);</string>
+    </property>
+    <property name="text">
+     <string>Log In</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="username">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>190</y>
+      <width>301</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid white;
+color:rgba(255,255,255,230);
+padding-bottom:4px;</string>
+    </property>
+    <property name="placeholderText">
+     <string>User Name</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="password">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>300</y>
+      <width>301</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom:2px solid white;
+color:rgba(255,255,255,230);
+padding-bottom:4px;</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Password</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loginbtn">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>400</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Log In</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <connections/>
+</ui>
